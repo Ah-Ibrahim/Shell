@@ -6,7 +6,7 @@ This project is a simple shell implementation in C++ that supports executing com
 
 ## Features
 
-- Command execution using `execvp`
+- Command execution
 - Input (`<`), output (`>`), and error (`2>`) redirection
 - Pipelining (`|`) support for chaining commands
 - Background process execution using `&`
@@ -37,7 +37,7 @@ make   # If a Makefile is available
 ## Usage
 
 ```sh
-./myshell
+./shell
 ```
 
 Once inside the shell, you can execute commands like:
